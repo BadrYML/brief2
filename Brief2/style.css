@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+body, h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Poppins', sans-serif;
+}
+.navigate{
+    position: fixed;
+    background: #FF0000;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navigate h3{
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.navigate ul li{
+    margin: 25px 0;
+    list-style: none;
+}
+
+.navigate ul li a{
+    color: #FFFFFF;
+    padding: .7px;
+    text-decoration: none;
+}
+
+.navigate ul li a:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+    transition: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.main{
+    margin-left: 350px;
+    margin-right: 50px;
+}
+
+.main header h1{
+    font-size: 30px;
+}
+
+.showcase h2{
+    font-size: 25px;
+    color: #FF0000;
+    margin-left: 30px;
+}
+
+.showcase img{
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.services h2{
+    font-size: 25px;
+    color: #FF0000;
+    margin-left: 30px;
+}
+
+.services p{
+    font-size: 14px;
+}
+
+.designers h2{
+    font-size: 25px;
+    color: #FF0000;
+    margin-left: 30px;
+}
+
+.designers p{
+    font-size: 14px;
+}
+
+.teamcontent{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin-bottom:20px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.teamgrid{
+    width: 30%;
+    float: left;
+    background-color: #F4F3F3;
+    margin-left: 8px;
+    padding: 8px;
+}
+
+.img-eff{
+    width: 100%;
+}
+
+.gray{
+    color: #757474;
+}
+
+.packages h2{
+    font-size: 25px;
+    color: #FF0000;
+    margin-left: 30px;
+}
+
+.basic{
+    float: left;
+    width: 49%;
+    border-collapse: collapse;
+}
+
+.basic thead{
+    color: white;
+    background-color: #616161;
+}
+
+th{
+    height: 105px;
+}
+
+td{
+    border-bottom: 0.4px solid rgb(224, 219, 219);
+    text-align: center;
+    background-color:rgb(239, 239, 239);
+    padding: 16px;
+}
+
+.button1 button{
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+}
+
+small{
+    color: #616161;
+}
+
+.pro{
+    float: right;
+    width: 49%;
+    border-collapse: collapse;
+}
+
+.pro thead{
+    color: white;
+    background-color: #FF0000;
+}
+
+.button2 button{
+    background-color:#F44336 ;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+}
+
+.button1 :hover, .button2 :hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.contact h2{
+    font-size: 25px;
+    color: #FF0000;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+form { 
+    width:100%;
+    margin:50px auto
+}
+
+.form-input {
+    color:black;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:1px solid #b6b6b6;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.button3{
+    width: 100%;
+    background-color: #F44336;
+    border-color: #F44336;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px;
+    overflow: hidden;
+    display: block;
+    border-style: none;
+}
+
+.button3:hover{
+    background-color: #b6b6b6;
+    color: #000000;
+    transition: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+footer {
+    background-color: rgb(240, 240, 240);
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    z-index: 6  ;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    justify-content: space-between;
+}
+
+footer a{
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin-left: 70px;
+    font-size: xx-large;
+}
